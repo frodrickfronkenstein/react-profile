@@ -14,6 +14,18 @@ function App() {
 
   const [currentCategory, setCurrectCategory] = useState(categories[0]);
 
+  const renderPage = () => {
+    if (currentCategory === "About Me") {
+      return (
+        <AboutMe></AboutMe>
+      )
+    } else if (currentCategory === "Portfolio") {
+      return (
+        <Portfolio></Portfolio>
+      )
+    }
+  }
+
   return (
     <div className="App">
       <Header
@@ -22,7 +34,7 @@ function App() {
       setCurrectCategory={setCurrectCategory}
       ></Header>
       <main>
-        <AboutMe></AboutMe>
+        {renderPage()}
       </main>
     </div>
   );
