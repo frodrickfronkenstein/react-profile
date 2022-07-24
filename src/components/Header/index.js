@@ -1,7 +1,13 @@
 import React from 'react';
 import Nav from '../Nav';
 
-function Header() {
+function Header(props) {
+    const {
+        categories = [],
+        currentCategory,
+        setCurrentCategory
+    } = props
+    
     return (
         <header>
             <h2>
