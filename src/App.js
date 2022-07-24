@@ -23,6 +23,10 @@ function App() {
       return (
         <Portfolio></Portfolio>
       )
+    } else {
+      return (
+        <AboutMe></AboutMe>
+      )
     }
   }
 

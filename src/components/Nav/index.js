@@ -4,7 +4,7 @@ function Nav(props) {
     const {
         categories = [],
         currentCategory,
-        setCurrentCategory
+        setCurrentCategory,
     } = props
     
     return(
