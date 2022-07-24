@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-profile/static/css/main.073c9b0a.css",
+    "main.js": "/react-profile/static/js/main.c4efc1d3.js",
+    "static/js/787.5c467991.chunk.js": "/react-profile/static/js/787.5c467991.chunk.js",
+    "static/media/profile-pic.jpeg": "/react-profile/static/media/profile-pic.51f828bf136ecfdacd98.jpeg",
+    "static/media/screenshot3.png": "/react-profile/static/media/screenshot3.1519962e9ebf539da06b.png",
+    "static/media/screenshot2.png": "/react-profile/static/media/screenshot2.40086eb969e7a424ad60.png",
+    "static/media/screenshot4.png": "/react-profile/static/media/screenshot4.ca24ce1c125c8568698d.png",
+    "static/media/screenshot1.png": "/react-profile/static/media/screenshot1.ede23a7212da9c2fa845.png",
+    "index.html": "/react-profile/index.html",
+    "main.073c9b0a.css.map": "/react-profile/static/css/main.073c9b0a.css.map",
+    "main.c4efc1d3.js.map": "/react-profile/static/js/main.c4efc1d3.js.map",
+    "787.5c467991.chunk.js.map": "/react-profile/static/js/787.5c467991.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c4efc1d3.js"
+  ]
+}
