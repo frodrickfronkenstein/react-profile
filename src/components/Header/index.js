@@ -13,7 +13,12 @@ function Header(props) {
             <h2>
                 <a href="/">Eric Smith's Portfolio</a>
             </h2>
-            <Nav></Nav>
+            <Nav
+                categories={categories}
+                currentCategory={currentCategory}
+                setCurrentCategory={setCurrentCategory}
+            >
+            </Nav>
         </header>
     )
 }
